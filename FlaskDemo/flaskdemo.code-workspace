@@ -1,7 +1,16 @@
 {
+<<<<<<< HEAD
     "folders": [
         {
             "path": ".."
         }
     ]
+=======
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+>>>>>>> c0c9917 (mapped routes to different modules)
 }
