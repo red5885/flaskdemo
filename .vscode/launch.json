@@ -23,7 +23,7 @@
             "module": "flask",
             "env": {
                 "FLASK_APP": "flaskr",
-                "FLASK_ENV": "production",
+                "FLASK_ENV": "development",
                 "FLASK_DEBUG": "1",
                 "SERVER_NAME": "0.0.0.0:5000"
             },
