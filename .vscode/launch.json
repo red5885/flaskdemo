@@ -5,7 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Flask",
+            "name": "build db",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "flaskr",
+                "FLASK_ENV": "development"
+            },
+            "args": ["init-db"],
+            "jinja": true
+        },
+        {
+            "name": "Flask",
             "type": "python",
             "request": "launch",
             "module": "flask",
@@ -14,9 +26,7 @@
                 "FLASK_ENV": "development",
                 "FLASK_DEBUG": "0"
             },
-            "args": [
-                "run"
-            ],
+            "args": ["run"],
             "jinja": true
         }
     ]
